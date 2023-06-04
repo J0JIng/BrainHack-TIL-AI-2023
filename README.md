@@ -38,6 +38,7 @@ xxxxxxxx
 ## Automatic Speech Recognition
 
 Building the model with adaption of deepspeech2 , raw audio data from .wav file will be transformed into a melspectrogram.
+The melspectrograms are then inputted into CNN and RNN layers to generate predictions about the words that are spoken in the audio data. 
 The number of classes is 28 ( 26 alphabets in caps + SPACE + blanks ). Text transformed by encoding the characters and decoding the integers corresponding to the characters. Finally, GreedyDecoder decodes the logits into characters to form the final transciption. 
 
 
