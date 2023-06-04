@@ -3,8 +3,8 @@
 BrainHack TIL-23 Hackathon Challenge Description:
 
 This repository contains the project files for the Advanced OD & ReID qualifier and Advanced Automatic Speech Recognition qualifier:
-1. [ASR-NLP]  
-2. [Computer_vision]
+1. [ASR-NLP](https://github.com/J0JIng/BrainHack-TIL-AI-2023/tree/main/ASR-NLP)
+2. [Computer_vision](https://github.com/J0JIng/BrainHack-TIL-AI-2023/tree/main/Computer_vision)
 
 ---
 
