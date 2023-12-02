@@ -1,5 +1,11 @@
 # BrainHack-TIL-AI-2023
 
+![AI](https://img.shields.io/badge/AI-1976D2?style=for-the-badge&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-92EAF1?style=for-the-badge&logoColor=white)
+![Automatic Speech Recognition](https://img.shields.io/badge/Automatic_Speech_Recognition-B7F192?style=for-the-badge&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+
 BrainHack TIL-23 Hackathon Challenge Description:
 
 This repository contains the project files for the Advanced OD & ReID qualifier and Advanced Automatic Speech Recognition qualifier:
@@ -26,22 +32,6 @@ achieve this, two models are needed:
 
 ● Automatic speech recognition model to interpret your intelligence team’s communications about the
 whereabouts of Mr. Dastan
-
----
-
-## OD & ReID
-
-xxxxxxxx
-
-
-
-## Automatic Speech Recognition
-
-Building the model with adaption of deepspeech2 , raw audio data from .wav file will be transformed into a melspectrogram.
-The melspectrograms are then inputted into CNN and RNN layers to generate predictions about the words that are spoken in the audio data. 
-The number of classes is 28 ( 26 alphabets in caps + SPACE + blanks ). Text transformed by encoding the characters and decoding the integers corresponding to the characters. Finally, GreedyDecoder decodes the logits into characters to form the final transciption. 
-
-
 
 
 
